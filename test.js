@@ -18,8 +18,8 @@ options.adapter = [
 
 const store = fortune(typeDefinitions, options);
 
-// let findIds;
-// let findOptions;
+let findIds;
+let findOptions;
 
 // // findIds = '1nQjQikoqsCHx6Mv';
 
@@ -35,15 +35,15 @@ const store = fortune(typeDefinitions, options);
 //     })
 //     .catch(console.error);
 
-store.create('token', [{
-        account: 'EzYuN3UI21aOrPzU',
-        user: 'Zgo85nn2TJrZdJa9',
-        ip: '192.168.1.23',
-        status: 'active'
-    }]).then((results) => {
-        console.log(results.payload);
-    })
-    .catch(console.error);
+// store.create('users', [{
+//         account: 'EzYuN3UI21aOrPzU',
+//         user: 'Zgo85nn2TJrZdJa9',
+//         ip: '192.168.1.23',
+//         status: 'active'
+//     }]).then((results) => {
+//         console.log(results.payload);
+//     })
+//     .catch(console.error);
 
 // store.update('token', [{
 //         id: 'Qfr6gX0oVvbS2ePV',
