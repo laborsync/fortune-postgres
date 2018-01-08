@@ -31,25 +31,28 @@ let findOptions;
 
 // store.find('user', findIds, findOptions)
 //     .then((results) => {
-//         console.log(results.payload.records);
+//         console.log(results.payload);
 //     })
 //     .catch(console.error);
 
-// store.create('users', [{
+// store.create('token', [{
 //         account: 'EzYuN3UI21aOrPzU',
+//         created: this.now,
 //         user: 'Zgo85nn2TJrZdJa9',
 //         ip: '192.168.1.23',
-//         status: 'active'
+//         status: 'active',
+//         created: '2018-01-08 20:57:09.977505',
+//         updated: '2018-01-08 20:57:09.977505'
 //     }]).then((results) => {
 //         console.log(results.payload);
 //     })
 //     .catch(console.error);
 
 // store.update('token', [{
-//         id: 'Qfr6gX0oVvbS2ePV',
+//         id: 'msfpNksBZkspiibe',
 //         replace: {
 //             status: 'test',
-//             updated: now,
+//             updated: '2018-01-08 21:57:09.977505',
 //         }
 //     }]).then((results) => {
 //         console.log(results.payload);
@@ -57,7 +60,7 @@ let findOptions;
 //     .catch(console.error);
 
 // store.delete('token', [
-//         'WXRvRF4cnQhaPRok'
+//         'msfpNksBZkspiibe'
 //     ]).then((results) => {
 //         console.log(results.payload);
 //     })
