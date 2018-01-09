@@ -1,7 +1,7 @@
 {
-  "name": "fortune-spanner",
+  "name": "fortune-postgres",
   "version": "1.0.0",
-  "description": "Google Spanner adapter for Fortune.js",
+  "description": "Custom tailored Postgres adapter for Fortune.js",
   "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint lib",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/laborsync/fortune-spanner.git"
+    "url": "https://github.com/laborsync/fortune-postgres.git"
   },
   "author": "Labor Sync LLC",
   "license": "MIT",
   "keywords": [
     "fortunejs",
     "fortune",
-    "spanner",
+    "postgres",
     "adapter"
   ],
   "devDependencies": {
