@@ -65,3 +65,8 @@ let findOptions;
 //         console.log(results.payload);
 //     })
 //     .catch(console.error);
+
+// store.adapter.now()
+//     .then((now) => {
+//         console.log(now);
+//     })
