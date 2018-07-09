@@ -23,7 +23,7 @@
   ],
   "devDependencies": {
     "eslint": "^3.19.0",
-    "fortune": "^5.4.1",
+    "fortune": "^5.4.4",
     "tapdance": "^5.0.4"
   },
   "eslintConfig": {
